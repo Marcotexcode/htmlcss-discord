@@ -190,6 +190,10 @@
 
 /* sezione 4  */
 
+.sfondo-sezione4 {
+    background-color: #f3f4f5;
+    padding-bottom: 90px;
+}
 
 .sezione4 {
     width: 100%;
@@ -224,22 +228,33 @@
 /* footer */
 
 footer {
-    background-color: #23272a;;
+    background-color: #23272a;
+    
 }
 
 .container-footer {
     width: 80%;
     margin: 0 auto;
+    
+}
+
+.container-footer div {
+    color:  #7289da;
+}
+.box {
+    margin: 50px 0px 0px 0px;
+    
 }
 
 .box-link {
     width: 25%;
+    margin-right: 150px;
 }
 
 .box-link h2 {
     font-size: 32px;
     color: #7289da;
-    padding: 40px 0px;
+    margin-bottom: 40px;
 }
 
 .box-link span {
@@ -255,8 +270,7 @@ footer {
 }
 
 .box-link a  i{
- font-size: 25px;
- margin: ;
+    font-size: 25px;
     color: white;
 }
 
@@ -264,14 +278,73 @@ footer {
     margin: 0px 10px;
 }
 
+.container-footer div {
+    display: inline-block;
+}
 
+.text h2  {
+    margin-bottom: 15px;
+}
 
+.text a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration:underline;
+}
+
+.prodotto, .compagnia, .risorse {
+    margin-right: 60px;
+}
+
+ hr {
+     margin-top: 30px;
+     border: 1px solid #7289da; 
+}
+
+.logo-button {
+    width: 100%;
+}
+
+.btn-footer {
+    background-color: #7289da; ;
+    float: right;
+    color: white;
+    text-decoration:underline;
+}
 
 
 /* debug */
 
-.debug .box-link {
-    height: 300px;
+/* .debug .box-link {
+   
     background-color: brown;
 }
+
+.debug .container-footer {
+    background-color: seagreen;
+}
+
+
+.debug .prodotto {
+ background-color: rebeccapurple;
+}
+
+.debug .compagnia {
+ background-color: royalblue;
+}
+
+.debug .risorse {
+ background-color: saddlebrown;
+}
+
+.debug .norme {
+     background-color: salmon;
+} */
+
 
