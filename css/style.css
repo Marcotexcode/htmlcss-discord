@@ -139,14 +139,11 @@
 
 
 /* corpo pagina  */
-main {
-    
-}
 
 
 /* sezione 1 */
 
-.sezione1 {
+.sezione1, .sezione2, .sezione3 {
     width: 80%;
     margin: 0 auto;
 }
@@ -154,36 +151,84 @@ main {
 .box {
     display: inline-block;
     float: left;
-    padding: 90px 0px;
+    padding: 80px 0px 0px 0px;
 }
 
-.box-left{
+.box-img{
     width: 62%;
 }
 
-.box-right {
+.box-text{
     width: 37%;
-    padding: 120px 0px;
+    padding: 120px 0px 0px 0px;
 }
 
-.box-right h2 {
+.box-text h2 {
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 15px;
 }
 
-.box-right p {
+.box-text p {
     font-size: 20px;
     line-height: 40px;
 }
 
 
+/* onda  */
+
+.sfondo-sezione2 {
+    background-color: #f3f4f5;
+}
 
 
 
+.onda-rovesciata2 {
+    transform: rotate(180deg);
+}
 
 
+/* sezione 4  */
+
+
+.sezione4 {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.box-tex4 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-img4 {
+    margin: 0 auto;
+}
+
+.sezione4 h2 {
+    font-size: 40px;
+    padding: 100px 0px 50px;
+}
+
+.sezione4 a {
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #7289da;
+    color: white;
+    text-decoration: none;
+}
 
 /* debug */
+/* 
 
+.debug .sezione2 {
+    background-color: saddlebrown;
+    height: 600px;
+}
+
+.debug .box {
+    background-color: red;
+} */
 
