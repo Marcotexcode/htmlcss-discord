@@ -65,7 +65,7 @@
 
 
 
-/* button */
+/* button menu */
 
 .btn {
     padding: 10px 30px;
@@ -119,17 +119,27 @@
 
 
 
+
 /* buton jumbotron  */
 
 .button-jumb {
     margin: 20px;
     font-size: 20px; 
+    padding: 15px 25px;
+    border-radius: 50px;
 }
 
 .botton-centrati {
     display: inline-block;
     margin: 0 auto;
 }
+
+.button-jumb-dx {
+    color: white;
+    background-color: black;
+}
+
+
 
 
 
