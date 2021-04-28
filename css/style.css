@@ -220,15 +220,58 @@
     text-decoration: none;
 }
 
-/* debug */
-/* 
 
-.debug .sezione2 {
-    background-color: saddlebrown;
-    height: 600px;
+/* footer */
+
+footer {
+    background-color: #23272a;;
 }
 
-.debug .box {
-    background-color: red;
-} */
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box-link {
+    width: 25%;
+}
+
+.box-link h2 {
+    font-size: 32px;
+    color: #7289da;
+    padding: 40px 0px;
+}
+
+.box-link span {
+    font-size: 14px;
+    color: white;
+    display: block;
+    padding: 0px 0px 20px 0px ;
+}
+
+.box-link span img {
+    width: 24px;
+    height: 16px;
+}
+
+.box-link a  i{
+ font-size: 25px;
+ margin: ;
+    color: white;
+}
+
+.instagram, .facebook {
+    margin: 0px 10px;
+}
+
+
+
+
+
+/* debug */
+
+.debug .box-link {
+    height: 300px;
+    background-color: brown;
+}
 
